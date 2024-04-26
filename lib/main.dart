@@ -23,7 +23,7 @@ class MyToDo extends StatelessWidget {
               borderRadius: BorderRadius.circular(12),
               color: Colors.blue.shade500,
             ),
-            child: Icon(
+            child: const Icon(
               Icons.add,
             ),
           ),
@@ -31,6 +31,9 @@ class MyToDo extends StatelessWidget {
         appBar: AppBar(
           title: const Text(
             "MyToDo",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+            ),
           ),
           centerTitle: true,
           actions: [
@@ -42,13 +45,13 @@ class MyToDo extends StatelessWidget {
         ),
         drawer: const Drawer(),
         body: Container(
-          color: Color.fromARGB(179, 255, 255, 255),
+          color: const Color.fromARGB(179, 255, 255, 255),
           margin: EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
                 height: 100,
                 decoration: BoxDecoration(
                   color: Colors.green.shade200,
@@ -94,7 +97,7 @@ class MyToDo extends StatelessWidget {
                 height: 20.5,
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
                 height: 70,
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 234, 223, 223),
@@ -124,7 +127,7 @@ class MyToDo extends StatelessWidget {
                 height: 20,
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
                 height: 70,
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 234, 223, 223),
@@ -150,11 +153,11 @@ class MyToDo extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
                 height: 70,
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 234, 223, 223),
@@ -180,11 +183,11 @@ class MyToDo extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
                 height: 70,
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 234, 223, 223),
@@ -210,11 +213,11 @@ class MyToDo extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
                 height: 70,
                 decoration: BoxDecoration(
                   color: const Color.fromARGB(255, 234, 223, 223),
